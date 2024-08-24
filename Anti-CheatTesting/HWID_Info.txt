@@ -1,0 +1,72 @@
+HWID gathered from WMI trace:
+    Valorant: (Gets other HWID from more direct access. After initial ban we tested a different account on different network but same hardware which was immidiatley banned)
+        CPU - name  
+        GPU - Name, driver version 
+
+    Fortnite: (Gets other HWID from more direct access. After initial ban we tested a different account on different network but same hardware which was immidiatley banned)
+        CPU - DeviceID, CurrentClockSpeed, MaxClockSpeed, ExtClock
+        GPU - Name, DriverVersion 
+        Also checks overlay apps like overwolf
+
+    APEX:
+        CPU - DeviceID, CurrentClockSpeed, MaxClockSpeed, ExtClock 
+        GPU - ALL 
+        Storage - Serial Number,  
+        BIOS - Serial Number, Manufacturer
+        MOBO - Serial Number, Manufacturer
+        OS - Gets ALL, then again InstallDate, SerialNumber 
+
+    Overwatch 2:
+        CPU - ALL 
+        GPU - ALL 
+        Storage - Caption,DeviceID,InterfaceType,Manufacturer,MediaType,Model,Name,SerialNumber,Size
+        Disk Partitions - DeviceID, StartingOffset, Size, DiskIndex, Index 
+        BIOS - ALL 
+        MOBO - ALL 
+        RAM - ALL 
+        Printer Driver - DriverName 
+        SoundDevice - ALL 
+
+    Warzone:
+        Storage - Caption,DeviceID,InterfaceType,Manufacturer,MediaType,Model,Name,SerialNumber,Size
+        Disk Partitions - DeviceID, StartingOffset, Size, DiskIndex, Index 
+
+    R6S: 
+        CPU - Name 
+        GPU - ALL
+        Storage - Serial Number
+        BIOS - Manufacturer, Version 
+        MOBO - Manufacturer, SerialNumber 
+        OS - ALL 
+        
+    CS2:
+        CPU - DeviceID, CurrentClockSpeed, MaxClockSpeed, ExtClock
+        GPU - Driver Version 
+
+    TF2:
+        CPU - Name
+        GPU - ALL, Driver Version 
+
+    The Finals:
+        GPU - PNP Device ID
+        Storage - Serial Number 
+        RAM - Serial Number
+        BIOS - Serial Number
+        MOBO - Serial Number
+        Keyboard - Device ID (Every 5 mins)
+        Mouse - Device ID (Every 5 mins)
+
+    Battlefield 2042:
+        CPU -  Name, NumberOfCores, MaxClockSpeed, VirtualizationFirmwareEnabled, Manufacturer
+        GPU - ALL 
+        Storage - Serial Number 
+        HDD - FriendlyName, UniqueId, AllocatedSize, MediaType, SpindleSpeed, Size 
+        BIOS - ALL
+        MOBO - ALL 
+        OS - BuildNumber, Name, OSArchitecture, Version, InstallDate, SerialNumber 
+        System - Manufacturer, Model, Name, System Type
+
+    Battlefield 1:  
+        CPU - Name 
+        GPU - Name, Driver Version 
+        
